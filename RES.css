@@ -1,0 +1,106 @@
+@media screen and (max-width:768px){
+    
+    .right ul li {
+        padding: 10px 10px ;
+    }
+    
+    .home-left h3{
+        font-size: 5.2vmin;
+    }
+    .home-left h2{
+        font-size: 4vmin;
+    }
+    .btn-home button{
+        padding: 10px 10px ;
+        margin-left: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width:425px){
+    nav{
+        position: relative;
+    }
+     nav i,#toggle{
+        display: initial;
+        font-size: 7vmin;
+        margin-left: 150px;
+        /* justify-content:center; */
+    } 
+    
+    .left h1{
+        font-size: 8vmin;
+        text-align: center;
+        
+        
+    
+    }
+
+    nav .right{
+        height: 100vh;
+        width: 100%;
+        background:var(--secoundrycolor);
+        position: absolute;
+        top: 60px ;
+        left: -110%;
+        align-content:flex-start;
+        transition: 0.2s ease-in-out;
+    }
+    .right.active{
+        left: 0px;
+    }
+
+    .right li{
+        flex-direction: row;
+        float: none;
+        margin-top: 20px;
+        
+
+    }
+    .right a{
+        font-size: 5vmin;
+        
+    }
+  
+
+    .container-home{
+        display: flexbox;
+        flex-direction: column-reverse;
+        gap: 0px;
+        height: 100vh
+    }
+    .home-left{
+        width: 80%;
+        height: 60vh;
+        text-align: center;
+    }
+    .home-right{
+        width: 80%;
+        height: 40vh;
+    }
+    .home-left h3,h2,p, .social, .btn-home{
+        margin-top: 20px;
+    }
+    .home-left h3{
+        font-size: 7vmin;
+    }
+    .home-left p{
+        margin-top: 10px;
+        font-size: 4vmin;
+        
+    }
+    .social i {
+        font-size: 5.2vmin;   
+    }
+    .btn-home button{
+        padding: 10px 20px ;
+        margin-left: 10px;
+    }
+    .btn-home button a{
+    color: var(--secoundrycolor);
+    padding: 10px 20px 
+}
+   
+
+}
